@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F2F5F9;
+}
+
+ul, ol {
+    list-style: none; /* Elimina los estilos de viñetas/números predeterminados */
+}
+
+ul li a {
+    text-decoration: none;
+}
+.container{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+.banner-image{
+    width: 100%;
+    border-radius: .5rem;
+}
+.info-container{
+    padding: 10px 35px 0px 35px;
+}
+.info-container h2{
+    font-family: poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    z-index: 3;
+    color: #111729;
+}
+.info-container p{
+    padding-top: 15px;
+    font-family: lato;
+    font-weight: 500;
+    color: #677489;
+    padding-bottom: 30px;
+}
+
+.author-section{
+    border-top: 1px solid #F2F5F9;
+    display: flex;
+    padding: 2rem;
+}
+.avatar-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+.author-text{
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.author-section h4{
+    font-family: lato;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.author-section p{
+    font-family: poppins;
+    color: #677489;
+    font-size: 0.75rem;
+}
+.overlay-img{
+    position: absolute;
+    top: 14rem;
+    width: 100%;
+    z-index: 2;
+}
